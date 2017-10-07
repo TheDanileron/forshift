@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="forshift:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="forshift.war">
+      <element id="artifact" artifact-name="forshift:war exploded" />
+    </root>
+  </artifact>
+</component>

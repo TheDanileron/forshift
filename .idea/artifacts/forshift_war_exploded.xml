@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="forshift:war exploded">
+    <output-path>$PROJECT_DIR$/target/forshift</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="forshift" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/forshift/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="forshift/web/Web" />
+    </root>
+  </artifact>
+</component>
